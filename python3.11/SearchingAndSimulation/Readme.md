@@ -46,3 +46,13 @@ def subsets(nums):
         return result
 print(subsets([1,2,3]))
 ```
+
+
+숫자 판별 함수
+
+- isdigit()
+해당 문자열이 '숫자'로 이루어져 있는지 검사한다.
+- isdecimal()
+해당 문자열이 0~9까지의 수로 이루어진 것인지 검사한다. 다시 말해, int로 바로 변환할 수 있는 수인지를 검사한다.
+- isnumeric()
+numeric하다는 것은 좀 더 폭넓은 의미를 가진다. 이 함수는 '수로 볼 수 있는 것'인 경우 True로 반환
